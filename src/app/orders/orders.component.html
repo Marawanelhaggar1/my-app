@@ -1,0 +1,7 @@
+<p>my name is : {{ name }}</p>
+
+<label for="name"> add names: </label>
+
+<input type="text" id="name" #new />
+
+<button type="button" (click)="addNames(new.value)">add</button>

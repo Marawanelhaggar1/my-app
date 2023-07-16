@@ -1,0 +1,25 @@
+.nav-link {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+
+  .kkk {
+    font-weight: bold;
+  }
+
+  .bav-btn {
+    background-color: white;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    transition: 0.5s;
+    padding: 10px;
+    cursor: pointer;
+  }
+
+  .bav-btn:hover {
+    color: navy;
+    background-color: #ccc;
+  }
+}
